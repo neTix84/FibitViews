@@ -1,0 +1,22 @@
+<svg>
+  <!-- TITLE -->
+  <svg id="title"  display="inline">
+    <text x="100" y="180" class="title">TITLE</text>
+  </svg>
+  <!-- CONFIG -->
+  <svg id="config"  display="none">
+    <use id="start" href="#square-button" x="100" y="100" width="150" fill="fb-white" >
+      <set href="#text" attributeName="text-buffer" to="Start" />
+    </use>
+  </svg>
+   <!-- MAIN -->
+  <svg id="main"  display="none">
+    <image href="field.png" pointer-events="none"/>
+    <use id="scoreA" href="#square-button" x="220" y="25" width="100" fill="fb-white" >
+      <set href="#text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="scoreB" href="#square-button" x="220" y="145" width="100" fill="fb-white" >
+      <set href="#text" attributeName="text-buffer" to="0" />
+    </use>
+  </svg>
+</svg>
